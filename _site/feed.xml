@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog.&amp;lt;Aleksei Aksenov&amp;gt;</title>
+    <description>Aleksei Aksenov blog</description>
+    <link>http://blog.aksenov.tk/</link>
+    <atom:link href="http://blog.aksenov.tk/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>The main rule for bloggers</title>
+        <description>&lt;p&gt;There’s a single rule that every blogger must follow. It speaks “Appreciate your readers’ time.”&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Jul 2010 06:33:33 +0400</pubDate>
+        <link>http://blog.aksenov.tk/meta/2010/07/16/the-main-rule-for-bloggers/</link>
+        <guid isPermaLink="true">http://blog.aksenov.tk/meta/2010/07/16/the-main-rule-for-bloggers/</guid>
+      </item>
+    
+  </channel>
+</rss>
