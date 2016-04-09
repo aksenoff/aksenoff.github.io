@@ -7,6 +7,23 @@
     <atom:link href="http://blog.aksenov.tk/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>On LaTeX</title>
+        <description>&lt;p&gt;I enjoy typesetting, love LaTeX, and particularly beamer package, but things like the one described below make me go berserk.&lt;/p&gt;
+
+&lt;p&gt;If you use a verbatim environment in a beamer document, prepare to &lt;a href=&quot;https://www.google.com/search?&amp;amp;q=latex+beamer+verbatim+problem&quot;&gt;google&lt;/a&gt;. The problem you will almost certainly run into is well known and &lt;a href=&quot;http://tex.stackexchange.com/questions/256666/paragraph-ended-before-verbatim-was-complete-when-trying-to-use-verbatim-in&quot;&gt;if I may quote&lt;/a&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The documentation of beamer describes this problem in various places. And you really not the first getting errors due to verbatim content. When I see the trigger words “beamer + verbatim + error” the first guess is “missing fragile option”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Am I missing something or is this a kind of wrong architecture that causes such weird dependencies? Is LaTeX, the most powerful typesetting tool in observable part of the Universe, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;fundamentally flawed&lt;/a&gt;?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Apr 2016 00:00:00 +0300</pubDate>
+        <link>http://blog.aksenov.tk/latex/2016/04/10/on-latex/</link>
+        <guid isPermaLink="true">http://blog.aksenov.tk/latex/2016/04/10/on-latex/</guid>
+      </item>
+    
+      <item>
         <title>The main rule for bloggers</title>
         <description>&lt;p&gt;There’s a single rule that every blogger must follow. It speaks “Appreciate your readers’ time.”&lt;/p&gt;
 </description>

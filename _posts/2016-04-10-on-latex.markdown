@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "On LaTeX"
+categories: latex
+---
+I enjoy typesetting, love LaTeX, and particularly beamer package, but things like the one described below make me go berserk. 
+
+If you use a verbatim environment in a beamer document, prepare to [google](https://www.google.com/search?&q=latex+beamer+verbatim+problem). The problem you will almost certainly run into is well known and [if I may quote](http://tex.stackexchange.com/questions/256666/paragraph-ended-before-verbatim-was-complete-when-trying-to-use-verbatim-in),
+
+> The documentation of beamer describes this problem in various places. And you really not the first getting errors due to verbatim content. When I see the trigger words "beamer + verbatim + error" the first guess is "missing fragile option".
+
+Am I missing something or is this a kind of wrong architecture that causes such weird dependencies? Is LaTeX, the most powerful typesetting tool in observable part of the Universe, [fundamentally flawed](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069)? 
