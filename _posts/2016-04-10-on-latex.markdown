@@ -2,6 +2,8 @@
 layout: post
 title:  "On LaTeX"
 categories: latex
+lang: en
+ref: latexverbatim
 ---
 I enjoy typesetting, love LaTeX, and particularly beamer package, but things like the one described below make me go berserk. 
 

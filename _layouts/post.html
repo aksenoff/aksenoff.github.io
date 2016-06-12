@@ -9,15 +9,15 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+  <span class="post-meta">{{ page.date | date: site.t[page.lang].date_format }}</span><br>
   {% if page.update_date %}
-    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
+    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.t[page.lang].date_format }}</span><br>
   {% endif %}
   <span class="post-meta small">
   {% if page.minutes %}
-    {{ page.minutes }} {{ site.text.post.minute_read }}
+    {{ page.minutes }} {{ site.t[page.lang].post.minute_read }}
   {% else %}
-    {{ minutes }} {{ site.text.post.minute_read }}
+    {{ minutes }} {{ site.t[page.lang].post.minute_read }}
   {% endif %}
   </span>
 </div>
@@ -55,8 +55,8 @@ layout: default
 {% endif %}
 
 {% if site.show_related_posts %}
-  <h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
-  {% for post in site.related_posts %}
+  <h3 class="related-post-title">{{ site.t[page.lang].post.related_posts }}</h3>
+  {% for post in site.t[page.lang].related_posts %}
     <div class="post ml2">
       <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
         <h4 class="post-title">{{ post.title }}</h4>

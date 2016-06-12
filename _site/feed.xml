@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>blog.&amp;lt;Aleksei Aksenov&amp;gt;</title>
-    <description>Aleksei Aksenov blog</description>
-    <link>http://blog.aksenov.tk/</link>
-    <atom:link href="http://blog.aksenov.tk/feed.xml" rel="self" type="application/rss+xml" />
+    <title></title>
+    <description></description>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>On LaTeX</title>
@@ -19,8 +19,25 @@
 &lt;p&gt;Am I missing something or is this a kind of wrong architecture that causes such weird dependencies? Is LaTeX, the most powerful typesetting tool in observable part of the Universe, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;fundamentally flawed&lt;/a&gt;?&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Apr 2016 00:00:00 +0300</pubDate>
-        <link>http://blog.aksenov.tk/latex/2016/04/10/on-latex/</link>
-        <guid isPermaLink="true">http://blog.aksenov.tk/latex/2016/04/10/on-latex/</guid>
+        <link>/latex/2016/04/10/on-latex/</link>
+        <guid isPermaLink="true">/latex/2016/04/10/on-latex/</guid>
+      </item>
+    
+      <item>
+        <title>Про LaTeX</title>
+        <description>&lt;p&gt;Мне доставляет удовольствие верстка, нравится LaTeX и в частности пакет beamer, но описанное ниже просто выводит из равновесия.&lt;/p&gt;
+
+&lt;p&gt;Если вы используете окружение verbatim в документе beamer, будьте готовы &lt;a href=&quot;https://www.google.com/search?&amp;amp;q=latex+beamer+verbatim+problem&quot;&gt;гуглить&lt;/a&gt;. Проблема, с которой вы практически гарантированно столкнетесь, хорошо известна, и, &lt;a href=&quot;http://tex.stackexchange.com/questions/256666/paragraph-ended-before-verbatim-was-complete-when-trying-to-use-verbatim-in&quot;&gt;процитирую&lt;/a&gt;,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Документация beamer’а описывает эту проблему в нескольких местах. И вы точно не первый, у кого появляются ошибки из-за содержимого verbatim. Когда я вижу сигнальные слова “beamer + verbatim + ошибка”, моя первая мысль - “не хватает опции fragile”.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Я что-то упускаю или подобные странные зависимости действительно свидетельствуют об несовершенстве общей архитертуры? Не обладает ли LaTeX, самое мощное средство для верстки в наблюдаемой части Вселенной, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;фундаментальным изъяном&lt;/a&gt;?&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Apr 2016 00:00:00 +0300</pubDate>
+        <link>/ru/latex/2016/04/10/on-latex-ru/</link>
+        <guid isPermaLink="true">/ru/latex/2016/04/10/on-latex-ru/</guid>
       </item>
     
       <item>
@@ -28,8 +45,17 @@
         <description>&lt;p&gt;There’s a single rule that every blogger must follow. It speaks “Appreciate your readers’ time.”&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Jul 2010 06:33:33 +0400</pubDate>
-        <link>http://blog.aksenov.tk/meta/2010/07/16/the-main-rule-for-bloggers/</link>
-        <guid isPermaLink="true">http://blog.aksenov.tk/meta/2010/07/16/the-main-rule-for-bloggers/</guid>
+        <link>/meta/2010/07/16/the-main-rule-for-bloggers/</link>
+        <guid isPermaLink="true">/meta/2010/07/16/the-main-rule-for-bloggers/</guid>
+      </item>
+    
+      <item>
+        <title>Главное правило блоггера</title>
+        <description>&lt;p&gt;Существует правило, которому должен следовать каждый блоггер. Оно звучит так: “Цени время своих читателей”.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 16 Jul 2010 06:33:33 +0400</pubDate>
+        <link>/ru/meta/2010/07/16/the-main-rule-for-bloggers-ru/</link>
+        <guid isPermaLink="true">/ru/meta/2010/07/16/the-main-rule-for-bloggers-ru/</guid>
       </item>
     
   </channel>

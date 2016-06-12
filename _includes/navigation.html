@@ -1,10 +1,10 @@
-{% for page in site.pages %}
-    {% if page.tags contains "about" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
+{% for p in site.pages %}
+    {% if p.tags contains "about" and p.lang == page.lang %}
+        <a href="{{ p.url }}">{{ p.title }}</a>
     {% endif %}
 {% endfor %}
-{% for page in site.pages %}
-    {% if page.tags contains "contact" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
+{% for p in site.pages %}
+    {% if p.tags contains "contact" and p.lang == page.lang %}
+        <a href="{{ p.url }}">{{ p.title }}</a>
     {% endif %}
 {% endfor %}
