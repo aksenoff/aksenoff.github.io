@@ -61,7 +61,7 @@ share_hackernews: false
 t:
   en:
     title:       blog.&lt;Aleksei Aksenov&gt;
-    email:       me_at_aksenov.tk
+    email:       blog@aksenov.tk
     author:      Aleksei Aksenov
     description: "Aleksei Aksenov blog"
     baseurl:     ""
@@ -100,11 +100,11 @@ t:
     og_locale: 'en_US'
   ru:
     title:       блог.&lt;Алексей Аксенов&gt;
-    email:       me_at_aksenov.tk
+    email:       blog@aksenov.tk
     author:      Алексей Аксенов
     description: "Блог Алексея Аксенова"
     baseurl:     ""
-    url:         "http://blog.aksenov.tk"
+    url:         "http://blog.aksenov.tk/ru/"
     date_format: "%-d.%m.%Y"
     pagination:
       newer: 'Позже'
