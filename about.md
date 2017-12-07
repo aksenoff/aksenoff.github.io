@@ -11,4 +11,4 @@ This page is supposed to be about me. But I don't feel like filling it. This is 
 
 Furthermore, it is considered rude and indecent to praise yourself. And if I start to fill this page, I would have to praise myself, because I am so awesome. Yikes, I did it again.
 
-You've been reading this for too long. If you have some more time to lose, consider visiting [my website](http://aksenov.tk).
+You've been reading this for too long. If you have some more time to lose, consider visiting [my website](http://aksenov.in).

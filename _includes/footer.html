@@ -2,11 +2,11 @@
   <div class="measure">
     <small>
     {% if page.lang == 'en' %}
-      By <a href="http://aksenov.tk">{{ site.t[page.lang].author }}</a>, <script>document.write(new Date().getFullYear());</script>.<br>
+      By <a href="http://{{ site.domain }}">{{ site.t[page.lang].author }}</a>, <script>document.write(new Date().getFullYear());</script>.<br>
       Blog developed using <a href="https://jekyllrb.com/">Jekyll</a>, themed with <a href="http://pixyll.com/">Pixyll</a>. Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
     {% endif %}
     {% if page.lang == 'ru' %}
-      <a href="http://aksenov.tk">{{ site.t[page.lang].author }}</a>, <script>document.write(new Date().getFullYear());</script>.<br>
+      <a href="http://{{ site.domain }}">{{ site.t[page.lang].author }}</a>, <script>document.write(new Date().getFullYear());</script>.<br>
       Блог разработан с помощью <a href="https://jekyllrb.com/">Jekyll</a>, тема <a href="http://pixyll.com/">Pixyll</a>. Хостится на <a href="https://pages.github.com/">GitHub Pages</a>.
     {% endif %}
     </small>

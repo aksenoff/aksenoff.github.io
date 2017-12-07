@@ -1,6 +1,6 @@
 # Site settings
 remote_theme: johnotander/pixyll
-
+domain:     "aksenov.in"
 
 
 # Google services
