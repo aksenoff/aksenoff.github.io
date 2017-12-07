@@ -3,8 +3,8 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>On LaTeX</title>
@@ -19,8 +19,8 @@
 &lt;p&gt;Am I missing something or is this a kind of wrong architecture that causes such weird dependencies? Is LaTeX, the most powerful typesetting tool in observable part of the Universe, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;fundamentally flawed&lt;/a&gt;?&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Apr 2016 00:00:00 +0300</pubDate>
-        <link>/latex/2016/04/10/on-latex/</link>
-        <guid isPermaLink="true">/latex/2016/04/10/on-latex/</guid>
+        <link>http://localhost:4000/latex/2016/04/10/on-latex/</link>
+        <guid isPermaLink="true">http://localhost:4000/latex/2016/04/10/on-latex/</guid>
       </item>
     
       <item>
@@ -36,8 +36,8 @@
 &lt;p&gt;Я что-то упускаю или подобные странные зависимости действительно свидетельствуют об несовершенстве общей архитертуры? Не обладает ли LaTeX, самое мощное средство для верстки в наблюдаемой части Вселенной, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;фундаментальным изъяном&lt;/a&gt;?&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Apr 2016 00:00:00 +0300</pubDate>
-        <link>/ru/latex/2016/04/10/on-latex-ru/</link>
-        <guid isPermaLink="true">/ru/latex/2016/04/10/on-latex-ru/</guid>
+        <link>http://localhost:4000/ru/latex/2016/04/10/on-latex-ru/</link>
+        <guid isPermaLink="true">http://localhost:4000/ru/latex/2016/04/10/on-latex-ru/</guid>
       </item>
     
       <item>
@@ -45,8 +45,8 @@
         <description>&lt;p&gt;There’s a single rule that every blogger must follow. It speaks “Appreciate your readers’ time.”&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Jul 2010 06:33:33 +0400</pubDate>
-        <link>/meta/2010/07/16/the-main-rule-for-bloggers/</link>
-        <guid isPermaLink="true">/meta/2010/07/16/the-main-rule-for-bloggers/</guid>
+        <link>http://localhost:4000/meta/2010/07/16/the-main-rule-for-bloggers/</link>
+        <guid isPermaLink="true">http://localhost:4000/meta/2010/07/16/the-main-rule-for-bloggers/</guid>
       </item>
     
       <item>
@@ -54,8 +54,8 @@
         <description>&lt;p&gt;Существует правило, которому должен следовать каждый блоггер. Оно звучит так: “Цени время своих читателей”.&lt;/p&gt;
 </description>
         <pubDate>Fri, 16 Jul 2010 06:33:33 +0400</pubDate>
-        <link>/ru/meta/2010/07/16/the-main-rule-for-bloggers-ru/</link>
-        <guid isPermaLink="true">/ru/meta/2010/07/16/the-main-rule-for-bloggers-ru/</guid>
+        <link>http://localhost:4000/ru/meta/2010/07/16/the-main-rule-for-bloggers-ru/</link>
+        <guid isPermaLink="true">http://localhost:4000/ru/meta/2010/07/16/the-main-rule-for-bloggers-ru/</guid>
       </item>
     
   </channel>

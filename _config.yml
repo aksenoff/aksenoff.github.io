@@ -1,4 +1,5 @@
 # Site settings
+remote_theme: johnotander/pixyll
 
 
 
@@ -61,11 +62,11 @@ share_hackernews: false
 t:
   en:
     title:       blog.&lt;Aleksei Aksenov&gt;
-    email:       blog@aksenov.tk
+    email:       blog@aksenov.in
     author:      Aleksei Aksenov
     description: "Aleksei Aksenov blog"
     baseurl:     ""
-    url:         "http://blog.aksenov.tk"
+    url:         "http://blog.aksenov.in"
     date_format: "%-d %b %Y"
     pagination:
       newer: 'Newer'
@@ -100,11 +101,11 @@ t:
     og_locale: 'en_US'
   ru:
     title:       блог.&lt;Алексей Аксенов&gt;
-    email:       blog@aksenov.tk
+    email:       blog@aksenov.in
     author:      Алексей Аксенов
     description: "Блог Алексея Аксенова"
     baseurl:     ""
-    url:         "http://blog.aksenov.tk/ru/"
+    url:         "http://blog.aksenov.in/ru/"
     date_format: "%-d.%m.%Y"
     pagination:
       newer: 'Позже'
@@ -145,7 +146,7 @@ redcarpet:
 permalink:    pretty
 sass:
   compressed: true
-gems:
+plugins:
   [jekyll-sitemap]
 # https://github.com/jekyll/jekyll/issues/2938
 exclude: [vendor]
