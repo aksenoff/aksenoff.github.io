@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <description></description>
+    <title>aksenoff.github.io</title>
+    <description>Бложная тревога</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
     
@@ -33,7 +33,7 @@
   &lt;p&gt;Документация beamer’а описывает эту проблему в нескольких местах. И вы точно не первый, у кого появляются ошибки из-за содержимого verbatim. Когда я вижу сигнальные слова “beamer + verbatim + ошибка”, моя первая мысль - “не хватает опции fragile”.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Я что-то упускаю или подобные странные зависимости действительно свидетельствуют об несовершенстве общей архитертуры? Не обладает ли LaTeX, самое мощное средство для верстки в наблюдаемой части Вселенной, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;фундаментальным изъяном&lt;/a&gt;?&lt;/p&gt;
+&lt;p&gt;Я что-то упускаю или подобные странные зависимости действительно свидетельствуют об несовершенстве общей архитектуры? Не обладает ли LaTeX, самое мощное средство для верстки в наблюдаемой части Вселенной, &lt;a href=&quot;http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115069&quot;&gt;фундаментальным изъяном&lt;/a&gt;?&lt;/p&gt;
 </description>
         <pubDate>Sun, 10 Apr 2016 00:00:00 +0300</pubDate>
         <link>http://localhost:4000/ru/latex/2016/04/10/on-latex-ru/</link>
