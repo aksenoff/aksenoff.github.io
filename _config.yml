@@ -1,5 +1,5 @@
 # Site settings
-remote_theme: johnotander/pixyll
+remote_theme: johno/pixyll
 domain:     "aksenov.in"
 
 
