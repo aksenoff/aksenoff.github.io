@@ -2,5 +2,6 @@
 layout: page
 title: Thanks For Your Message
 permalink: /thanks/
+lang: en
 ---
-{{ site.text.thanks }}
+{{ site.t[page.lang].thanks }}

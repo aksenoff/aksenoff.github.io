@@ -213,3 +213,12 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#############
+## Jekyll
+#############
+
+_site/
+.jekyll-cache/
+.bundle/
+vendor/bundle/

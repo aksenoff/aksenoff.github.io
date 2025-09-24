@@ -1,6 +1,7 @@
 # Site settings
 remote_theme: johno/pixyll
 domain:     "aksenov.in"
+repository: aksenoff/aksenoff.github.io
 
 
 # Google services
@@ -140,6 +141,18 @@ t:
     og_locale: 'ru_RU'
 
 # Build settings
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']

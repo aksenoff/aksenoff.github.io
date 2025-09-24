@@ -1,17 +1,13 @@
----
-layout: default
-lang: ru
-ref: index
----
-{% assign posts=site.posts | where:"lang", page.lang %}
-{% assign posts_count = (posts | size) %}
+{% assign lang = include.lang | default: page.lang %}
+{% assign posts = site.posts | where: "lang", lang %}
+{% assign posts_count = posts | size %}
 
 <div class="home">
   {% if posts_count > 0 %}
     <div class="posts">
       {% for post in posts %}
         <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.t[page.lang].date_format }}</p>
+          <p class="post-meta">{{ post.date | date: site.t[lang].date_format }}</p>
           <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
           <p class="post-summary">
             {% if post.summary %}
@@ -23,9 +19,7 @@ ref: index
         </div>
       {% endfor %}
     </div>
-
-    
   {% else %}
-    <h1 class='center'>{{ site.t[page.lang].index.coming_soon }}</h3>
+    <h1 class="center">{{ site.t[lang].index.coming_soon }}</h1>
   {% endif %}
 </div>
