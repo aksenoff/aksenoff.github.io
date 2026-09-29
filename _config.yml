@@ -2,6 +2,8 @@
 remote_theme: johno/pixyll
 domain:     "aksenov.in"
 repository: aksenoff/aksenoff.github.io
+url: "https://blog.aksenov.in"
+baseurl: ""
 
 
 # Google services
@@ -160,6 +162,7 @@ permalink:    pretty
 sass:
   compressed: true
 plugins:
-  [jekyll-sitemap]
+  - jekyll-remote-theme
+  - jekyll-sitemap
 # https://github.com/jekyll/jekyll/issues/2938
-exclude: [vendor]
+exclude: [vendor, script]
