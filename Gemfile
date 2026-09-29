@@ -1,11 +1,10 @@
-source 'https://rubygems.org'
+source "https://rubygems.org"
 
-# A simple Ruby Gem to bootstrap dependencies for setting up and
-# maintaining a local Jekyll environment in sync with GitHub Pages
-# https://github.com/github/pages-gem
+# Preserve Jekyll/Sass rendering without github-pages' obsolete plugin pins.
+gem "jekyll", "~> 3.10.0"
+gem "kramdown-parser-gfm", "~> 1.1"
+gem "jekyll-remote-theme", "~> 0.6.0"
+gem "jekyll-sitemap", "~> 1.4"
 
-gem 'github-pages', group: :jekyll_plugins
-#gem 'jekyll', '= 3.6.3'
-#gem 'rubyzip', '= 1.2.2'
-#gem 'ffi', '= 1.9.24'
-#gem 'nokogiri', '= 1.8.2'
+# CVE-2026-85396: never resolve to vulnerable ZIP extraction versions.
+gem "rubyzip", ">= 3.4.0", "< 4.0"
